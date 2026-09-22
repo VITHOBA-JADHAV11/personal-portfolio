@@ -1,314 +1,338 @@
+/* ========================================
+   CONTACT SECTION - MODERN PORTFOLIO
+======================================== */
+
 .arch_contact_us_duplicate * {
-    font-family: Nunito, sans-serif;
-  }
-  
-  .arch_contact_us_duplicate .icon-block svg {
+    font-family: "Inter", "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+/* ========================================
+   MAIN CONTAINER
+======================================== */
+
+.arch_contact_us_duplicate .responsive-container-block {
+    min-height: fit-content;
     width: 100%;
-    height: 100%;
-  }
-  
-  .arch_contact_us_duplicate .icon-block {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .arch_contact_us_duplicate .text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    line-height: 25px;
-  }
-  
-  .arch_contact_us_duplicate .responsive-container-block {
-    min-height: 75px;
-    height: fit-content;
-    width: 100%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0 auto;
     justify-content: flex-start;
-  }
-  
-  .arch_contact_us_duplicate .responsive-cell-block {
-    min-height: 75px;
-  }
-  
-  .arch_contact_us_duplicate .responsive-container-block.big-container {
+}
+
+.arch_contact_us_duplicate .responsive-cell-block {
+    min-height: fit-content;
+}
+
+.arch_contact_us_duplicate .responsive-container-block.big-container {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding-top: 0px;
-    padding-right: 50px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-    background-color: #fdfcea;
-  }
-  
-  .arch_contact_us_duplicate .responsive-container-block.container {
-    max-width: 1100px;
-    justify-content: space-evenly;
-  }
-  
-  .arch_contact_us_duplicate .text-blk.section-head {
-    font-size: 60px;
-    line-height: 65px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 24px;
-    margin-left: 0px;
-  }
-  
-  .arch_contact_us_duplicate .text-blk.section-subhead {
-    font-size: 14px;
-    line-height: 18px;
-    color: #7e7e7e;
-  }
-  
-  .arch_contact_us_duplicate .input {
+    padding: 100px 40px;
+    background: #0f172a;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.arch_contact_us_duplicate .responsive-container-block.container {
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+/* ========================================
+   TEXT CONTENT
+======================================== */
+
+.arch_contact_us_duplicate .text-blk {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.arch_contact_us_duplicate .text-blk.section-head {
+    font-size: clamp(38px, 5vw, 64px);
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 25px;
+    color: #f8fafc;
+}
+
+.arch_contact_us_duplicate .text-blk.section-subhead {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #94a3b8;
+    max-width: 460px;
+}
+
+/* ========================================
+   FORM WRAPPER
+======================================== */
+
+.arch_contact_us_duplicate .form-wrapper {
     width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 15px;
-    margin-left: 0px;
+    padding: 32px;
+    background: rgba(30, 41, 59, 0.65);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 24px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    margin: 0 0 30px;
+}
+
+/* ========================================
+   INPUT FIELDS
+======================================== */
+
+.arch_contact_us_duplicate .input,
+.arch_contact_us_duplicate .textinput {
+    width: 100%;
+    display: block;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 15px 16px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+.arch_contact_us_duplicate .input {
     height: 54px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-top-color: #767676;
-    border-right-color: #767676;
-    border-bottom-color: #767676;
-    border-left-color: #767676;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    padding-top: 1px;
-    padding-right: 16px;
-    padding-bottom: 1px;
-    padding-left: 16px;
-    font-size: 16px;
-  }
-  
-  .arch_contact_us_duplicate .textinput {
+    margin-bottom: 16px;
+}
+
+.arch_contact_us_duplicate .textinput {
+    height: 130px;
+    resize: vertical;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+/* Placeholder */
+
+.arch_contact_us_duplicate .input::placeholder,
+.arch_contact_us_duplicate .textinput::placeholder {
+    color: #64748b;
+}
+
+/* Focus */
+
+.arch_contact_us_duplicate .input:focus,
+.arch_contact_us_duplicate .textinput:focus {
+    border-color: #60a5fa;
+    background: #172033;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.12);
+}
+
+/* ========================================
+   BUTTON
+======================================== */
+
+.arch_contact_us_duplicate .button {
     width: 100%;
-    height: 125px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 27px;
-    margin-left: 0px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-top-color: #767676;
-    border-right-color: #767676;
-    border-bottom-color: #767676;
-    border-left-color: #767676;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    font-size: 16px;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
-  }
-  
-  .arch_contact_us_duplicate .button {
-    height: 50px;
-    min-width: 240px;
-    font-size: 16px;
-    color: white;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-top-color: #767676;
-    border-right-color: #767676;
-    border-bottom-color: #767676;
-    border-left-color: #767676;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 60px;
-    margin-left: 0px;
-    background-color: #b0ab4d;
-  }
-  
-  .arch_contact_us_duplicate .form-wrapper {
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-    border-bottom-color: #f3f2cf;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 60px;
-    margin-left: 0px;
-  }
-  
-  .arch_contact_us_duplicate .social-media-icon-container {
+    min-height: 54px;
+    padding: 14px 24px;
+    margin: 0;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        opacity 0.3s ease;
+}
+
+.arch_contact_us_duplicate .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+.arch_contact_us_duplicate .button:active {
+    transform: translateY(0);
+}
+
+.arch_contact_us_duplicate .button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+
+/* ========================================
+   SOCIAL MEDIA ICONS
+======================================== */
+
+.arch_contact_us_duplicate .social-media-icon-container {
     display: flex;
-    max-width: 400px;
-    justify-content: space-evenly;
-  }
-  
-  .arch_contact_us_duplicate .input-element {
-    background-color: #f3f2cf;
-  }
-  
-  .arch_contact_us_duplicate .icon-block.social-icon {
-    fill: #b0ab4d;
-  }
-  
-  @media (max-width: 1024px) {
-    .arch_contact_us_duplicate .text-blk.section-head {
-      font-size: 55px;
-      line-height: 60px;
-    }
-  
+    align-items: center;
+    gap: 16px;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.arch_contact_us_duplicate .icon-block {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    background: #1e293b;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.arch_contact_us_duplicate .icon-block svg {
+    width: 22px;
+    height: 22px;
+    fill: #94a3b8;
+    transition: fill 0.3s ease;
+}
+
+.arch_contact_us_duplicate .icon-block:hover {
+    transform: translateY(-4px);
+    background: #2563eb;
+    border-color: #3b82f6;
+}
+
+.arch_contact_us_duplicate .icon-block:hover svg {
+    fill: #ffffff;
+}
+
+/* ========================================
+   RESPONSIVE - TABLET
+======================================== */
+
+@media (max-width: 1024px) {
+
     .arch_contact_us_duplicate .responsive-container-block.container {
-      justify-content: space-between;
+        gap: 40px;
     }
-  }
-  
-  @media (max-width: 768px) {
-    .arch_contact_us_duplicate .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-ipadp-6.wk-desk-5 {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 80px;
-      margin-left: 0px;
-    }
-  
-    .arch_contact_us_duplicate .responsive-cell-block.wk-mobile-12.wk-ipadp-6.wk-desk-5.wk-tab-10 {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 80px;
-      margin-left: 0px;
-      text-align: center;
-    }
-  
-    .arch_contact_us_duplicate .input {
-      height: 45px;
-    }
-  
-    .arch_contact_us_duplicate .responsive-container-block.container {
-      justify-content: space-evenly;
-      margin-top: 80px;
-      margin-right: 0px;
-      margin-bottom: 80px;
-      margin-left: 0px;
-    }
-  
-    .arch_contact_us_duplicate .responsive-cell-block.wk-mobile-12.wk-desk-5.wk-tab-10.wk-ipadp-5 {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 80px;
-      margin-left: 0px;
-    }
-  }
-  
-  @media (max-width: 500px) {
+
     .arch_contact_us_duplicate .text-blk.section-head {
-      font-size: 40px;
-      line-height: 45px;
+        font-size: 48px;
     }
-  
+
     .arch_contact_us_duplicate .responsive-container-block.big-container {
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;
+        padding: 80px 30px;
     }
-  
-    .arch_contact_us_duplicate .input {
-      height: 40px;
-    }
-  
-    .arch_contact_us_duplicate .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-ipadp-6.wk-desk-5 {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 80px;
-      margin-left: 0px;
-    }
-  
-    .arch_contact_us_duplicate .responsive-cell-block.wk-mobile-12.wk-ipadp-6.wk-desk-5.wk-tab-10 {
-      text-align: left;
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;
-    }
-  
+
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+
     .arch_contact_us_duplicate .responsive-container-block.big-container {
-      padding-top: 0px;
-      padding-right: 30px;
-      padding-bottom: 0px;
-      padding-left: 30px;
+        padding: 70px 24px;
     }
-  
-    .arch_contact_us_duplicate .responsive-cell-block.wk-mobile-12.wk-desk-5.wk-tab-10.wk-ipadp-5 {
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;
+
+    .arch_contact_us_duplicate .responsive-container-block.container {
+        flex-direction: column;
+        gap: 45px;
+        align-items: stretch;
     }
-  
-    .arch_contact_us_duplicate .button {
-      width: 100%;
+
+    .arch_contact_us_duplicate .responsive-cell-block {
+        width: 100%;
     }
-  
-    .arch_contact_us_duplicate .button {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 40px;
-      margin-left: 0px;
-      height: 50px;
+
+    .arch_contact_us_duplicate .text-blk.section-head {
+        font-size: 42px;
+        text-align: center;
+        letter-spacing: -1px;
     }
-  
+
+    .arch_contact_us_duplicate .text-blk.section-subhead {
+        text-align: center;
+        margin: 0 auto;
+    }
+
     .arch_contact_us_duplicate .form-wrapper {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 40px;
-      margin-left: 0px;
+        padding: 24px;
+        border-radius: 20px;
     }
-  
+
+    .arch_contact_us_duplicate .social-media-icon-container {
+        justify-content: center;
+    }
+
+}
+
+/* ========================================
+   RESPONSIVE - SMALL MOBILE
+======================================== */
+
+@media (max-width: 500px) {
+
+    .arch_contact_us_duplicate .responsive-container-block.big-container {
+        padding: 55px 18px;
+    }
+
+    .arch_contact_us_duplicate .text-blk.section-head {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .arch_contact_us_duplicate .text-blk.section-subhead {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .arch_contact_us_duplicate .form-wrapper {
+        padding: 20px;
+    }
+
+    .arch_contact_us_duplicate .input {
+        height: 50px;
+    }
+
+    .arch_contact_us_duplicate .textinput {
+        height: 120px;
+    }
+
+    .arch_contact_us_duplicate .button {
+        min-height: 52px;
+    }
+
     .arch_contact_us_duplicate .icon-block {
-      width: 25px;
-      height: 25px;
+        width: 40px;
+        height: 40px;
     }
-  }
+
+}
+
+/* ========================================
+   ACCESSIBILITY
+======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .arch_contact_us_duplicate *,
+    .arch_contact_us_duplicate *::before,
+    .arch_contact_us_duplicate *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+}
